@@ -1,0 +1,70 @@
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#grad3 {
+  height: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(lightblue), color-stop(lightblue), to(lightblue));
+  background: linear-gradient(lightblue, lightblue, lightblue);
+  border-radius: 2px;
+  margin-top: 5px;
+}
+
+.text1 {
+  color: darkblue;
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  padding-top: 10px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  margin-top: 5px;
+  border-collapse: collapse;
+  background: -webkit-gradient(linear, left top, right top, from(#72c6e7), to(#bdd4dd));
+  background: linear-gradient(to right, #72c6e7, #bdd4dd);
+}
+
+th,
+td {
+  padding: 35px;
+  text-align: left;
+  background: -webkit-gradient(linear, left top, right top, from(#72c6e7), to(#bdd4dd));
+  background: linear-gradient(to right, #72c6e7, #bdd4dd);
+}
+
+.img_pg4 {
+  height: 50px;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  position: relative;
+  margin-top: 5px;
+  padding-top: 8px;
+}
+
+#grad2 {
+  margin-top: 5px;
+  height: 60px;
+  background: -webkit-gradient(linear, left top, left bottom, from(lightblue), color-stop(lightblue), to(lightblue));
+  background: linear-gradient(lightblue, lightblue, lightblue);
+  border-radius: 2px;
+}
+/*# sourceMappingURL=pro-serv.component.css.map */

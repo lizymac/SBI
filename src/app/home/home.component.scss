@@ -1,0 +1,118 @@
+@mixin centerIt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#grad2 {
+  height: 250px;
+  background: linear-gradient(
+    rgb(88, 175, 233),
+    rgb(88, 175, 233),
+    rgb(88, 175, 233)
+  );
+  border-radius: 2px;
+}
+
+#grad2_home {
+  background: linear-gradient(
+    rgb(39, 142, 211),
+    rgb(39, 142, 211),
+    rgb(39, 142, 211)
+  );
+  height: 140px;
+  border-radius: 2px;
+  margin-top: 25px;
+}
+
+.img_home {
+  width: 250px;
+  margin: auto;
+  display: flex;
+  padding: 5px;
+}
+
+h2 {
+  background: linear-gradient(orange, orange, white, white, green, green);
+  color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  background-clip: text;
+  text-align: center;
+  line-height: 1em;
+}
+
+h5 {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+.text2 {
+  color: white;
+  text-align: center;
+}
+
+.imageContainer {
+  color: purple;
+  font-size: 20px;
+  font-weight: bolder;
+  width: 300px;
+  height: 25px;
+  background-image: url("/assets/images/back.png");
+  @include centerIt();
+}
+
+.imageContainer2 {
+  color: purple;
+  font-size: 20px;
+  font-weight: bold;
+  width: 300px;
+  height: 50px;
+  padding: 10px 12px;
+  background-image: url("../../assets/images/back.png");
+  @include centerIt();
+}
+
+// .clearfix::after {
+//   content: "";
+//   clear: both;
+//   display: flex;
+// }
+
+h2 p {
+  padding-top: 15px;
+  color: orange;
+}
+
+.more_services {
+  @include centerIt();
+}
+
+.img-container {
+  width: 100px;
+  height: 55px;
+  padding: 3px 4px;
+  border: 1px dotted black;
+  float: left;
+  margin: 5px 15px;
+  background-image: url("../../assets/images/back.png");
+}
+
+#grad1 {
+  height: 120px;
+  background: linear-gradient(orange, white, white, green);
+  border-radius: 2px;
+}
+
+.purpleTxt {
+  text-align: center;
+  color: purple;
+}
